@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kubernetes Unleashed</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1 class="animate-title">Kubernetes Unleashed - Orchestrate the Future</h1>
+  </header>
+  <main>
+    <img src="{{ url_for('static', filename='images/kubernetes.png') }}" alt="Kubernetes Logo" class="feature-img">
+    <section class="feature-list">
+      <ul>
+        <li>Container Orchestration</li>
+        <li>Service Discovery &amp; Load Balancing</li>
+        <li>Storage Orchestration</li>
+        <li>Automated Rollouts &amp; Rollbacks</li>
+        <li>Self-healing</li>
+        <li>Secret &amp; Config Management</li>
+      </ul>
+    </section>
+  </main>
+  <script src="{{ url_for('static', filename='js/animations.js') }}" defer></script>
+</body>
+</html>
+
